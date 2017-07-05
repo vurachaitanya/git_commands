@@ -1,1 +1,7 @@
-
+#############git command to int a path
+git init .                                                                                     
+git add .                                                                                      
+git commit -m "Ansible play books"                                                             
+git remote add origin https://github.com/vurachaitanya/ansible_playbooks.git                   
+git remote -v                                                                                  
+git push origin master     
